@@ -1,0 +1,2 @@
+# Medbazaar
+Medbazaar is a website that functions as a pharmaceutical metasearch engine. The website searches for medicines as requested by the user using the medicine name across various online pharmaceutical websites (like pharmeasy, medplus, netmeds etc.) and displays the relevant results sorted in increasing order of price. The user can be redirected to the “medicine details” page of the respective merchant website by clicking on the desired medicine. 
