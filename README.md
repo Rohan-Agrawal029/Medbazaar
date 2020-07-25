@@ -16,15 +16,13 @@ Front End
 - CSS
 - JavaScript (No Framework)
 - BootStrap
-
 Back End
 - SQL
-
 Server Side Language 
 - PHP
-
 Webscraping Scripts
 - Python
+
 
 Please go through the files in "ReadMe files" folder. It includes details like "how to setup", "database details" and "tech stack used".
 
