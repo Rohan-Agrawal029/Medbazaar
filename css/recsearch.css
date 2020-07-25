@@ -1,0 +1,23 @@
+.logo {
+    float: left;
+    max-height: 80px;
+    max-width: 80px;
+    margin-right: 50px;
+    border-radius: 40px;
+}
+
+.navbar {
+    height: 150px;
+    color: white;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.fserach {
+    margin: 25px 50px 25px 625px;
+}

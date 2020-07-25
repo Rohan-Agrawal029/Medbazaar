@@ -1,0 +1,67 @@
+.logo {
+    float: left;
+    max-height: 80px;
+    max-width: 80px;
+    margin-right: 50px;
+    border-radius: 40px;
+}
+
+.navbar {
+    height: 150px;
+}
+
+.display-4 {
+    text-align: center;
+    margin: 0px 0px -10px 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.underline {
+    max-width: 260px;
+    max-height: 10px;
+    border: 2px solid green;
+}
+
+.card-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 0px solid rgba(0,0,0,0.2); */
+    box-shadow: 2px 3px 3px 2px;
+}
+
+.femail {
+    margin-left: 70px;
+}
+
+.feed {
+    margin-left: 70px;
+    padding-right: 50px;
+    ;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}

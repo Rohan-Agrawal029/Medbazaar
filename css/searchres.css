@@ -1,0 +1,55 @@
+.logo 
+{
+	float: left;
+	max-height: 80px;
+	max-width: 80px;
+	margin-right: 50px;
+	border-radius: 40px;
+}
+
+.navbar 
+{
+	height: 150px;
+}
+
+
+
+.card-body {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0,0.2);    
+    cursor: pointer;
+}
+
+.headnam{
+    font-size: 20px;
+ 
+    margin: 0px;
+}
+
+.compnam{
+    font-size: 14px;
+    margin-top: 0px;
+    color: rgb(136, 151, 162);
+}
+
+.info{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
