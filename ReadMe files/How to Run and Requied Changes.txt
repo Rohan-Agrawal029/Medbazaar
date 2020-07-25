@@ -1,0 +1,37 @@
+DOWNLOAD ALL THE FILES.
+
+MAKE SURE ALL THE PHP FILES ARE STORED IN A SINGLE FOLDER AND ALL THE CSS FILES ARE STORED IN ANOTHER FOLDER INSIDE THIS FOLDER OR ELSE YOU WILL ENCOUNTER A LOT OF "MISSING FILE" ERROR.
+CATEGORIZE THE FILES AT YOUR OWN RISK. IF YOU DO PLAN TO CATEGORIZE, PLEASE READ THROUGH ALL THE FILES AND MODIFY THE FILE PATHS ACCORDINGLY. 
+
+BELOW ARE SOME OF THE MANDATORY CHANGES REQUIRED TO RUN THE PROJECT.
+
+***********"dbconnection.php"
+
+This file contains the database username, password, webhost and database name details. After creating the database on whichever server you use, make your to modify the details here or the project won't run!!!
+
+Line 3 - Database Username
+Line 4 - Database Password
+Line 5 - Host Name
+Line 6 - Database Name
+
+Note - If you are using a localhost (wamp, xampp), the first three details would probably be same.
+
+
+***********"search_res_page.php"
+
+Line 39 - Change the first argument in the exec func to the location of your python compiler/application. Change the second argument to the location of the file "pharmeasy_scraper.py".
+
+
+***********"pharmeasy_scraper.py"
+
+Line 1 - Change the path to the location of your python compiler/application.
+
+Note: After the execution of the python script, a json file named "pharmeasy.json" will be created in the same directory which contains the "pharmeasy_scraper.py" file.
+To modify the location of json file, change the first argument in the 'open' func in line 63 to the desired location.
+
+Line 71 - Change the first element of the list to the location of your php compiler/application and the second element to the location of "json_store.php" file.
+
+
+*************"json_store.php"
+
+Line 3 - Change the argument in the 'file_get_contents' func to the location of created json file. (Check the Note in 'pharmeasy_scraper.py' section for more details).

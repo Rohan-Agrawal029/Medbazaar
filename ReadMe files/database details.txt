@@ -1,0 +1,88 @@
+DATABASE DETAILS -
+
+**********************************************************
+TABLES
+**********************************************************
+
+1) admin
+
+Structure:
+# | COLUMN NAME	| TYPE		|
+------------------------------------------------
+1 | Username 	| varchar(50)	| Primary Key
+2 | Password	| varchar(50)	|
+
+2) feedback
+
+Structure:
+# | COLUMN NAME	| TYPE
+--------------------------------------------------
+1 | Email	| varchar(50)
+2 | Comments	| varchar(500)
+
+3)frequent_searches
+
+Structure:
+# | COLUMN NAME	| TYPE 		|
+----------------------------------------------------
+1 | Search_term	| varchar(20)	| Primary Key
+
+4)medicines
+
+Structure:
+# | COLUMN NAME	| TYPE		|
+----------------------------------------------------
+1 | Name	| varchar(100)	| Primary Key
+2 | Comp Name	| varchar(100)	| Primary Key
+3 | Quantity	| varchar(100)	|
+4 | Price	| varchar(20)	|
+5 | Link	| varchar(200)	|
+6 | Source	| varchar(20)	|
+7 | Search_Term	| varchar(20)	|
+
+5) recent_searches
+
+Structure:
+# | COLUMN NAME	| TYPE		
+-----------------------------------------------------
+1 | Term	| varchar(20)	
+
+6) users
+
+Structure:
+# | COLUMN NAME	  | TYPE		|
+------------------------------------------------------
+1 | First Name	  | varchar(25)		|
+2 | Last Name	  | varchar(25)		|
+3 | Email	  | varchar(50)		| Primary Key
+4 | Password	  | varchar(50)		|
+5 | Phone No	  | bigint(10)		|
+6 | Security Ques | varchar(100)	|
+7 | Answer	  | varchar(50)		|
+
+
+**********************************************************
+PROCEDURES/ROUTINES
+**********************************************************
+
+1) get_users
+
+Definition:
+
+SELECT * FROM `users`
+
+
+**********************************************************
+TRIGGERS
+**********************************************************
+
+1) insert_search_term
+
+Structure:
+TABLE		| TIME		| EVENT
+--------------------------------------------------
+medicines	| after		| insert
+
+Definition:
+
+INSERT INTO recent_searches VALUES(NEW.Search_Term)
