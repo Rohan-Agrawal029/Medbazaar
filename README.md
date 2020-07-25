@@ -28,6 +28,8 @@ Webscraping Scripts
 - Python
 
 
+
+
 Please go through the files in "ReadMe files" folder. It includes details like "how to setup", "database details" and "tech stack used".
 
 Check out the "Screenshots" folder to take a peek at the final website.
