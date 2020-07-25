@@ -3,7 +3,30 @@ Medbazaar is a website that functions as a pharmaceutical metasearch engine. The
 
 It's like Trivago but for medicines. Like Trivago searches for hotels, this website searches for medicines.
 
-Please go through the files in "ReadMe files" folder. It will help you in understanding how you can use this project.
+FEATURES:-
+1) Login/Sign up facility.
+2) Forgot Password facility that changes the password using a Security question. The Security Question is set at the time of creation of account.
+3) Admin Control Panel that can be used to view the details of all the existing users on the website and delete any user details. The Admin Control Panel can be accessed via Admin Login only. (Admin Login is different from User Login).
+4) Stores Frequent Searches and Recent Searches details that can be viewed by going to the respective page.
+5) Feedback 
+
+TECH STACK:-
+Front End
+- HTML
+- CSS
+- JavaScript (No Framework)
+- BootStrap
+
+Back End
+- SQL
+
+Server Side Language 
+- PHP
+
+Webscraping Scripts
+- Python
+
+Please go through the files in "ReadMe files" folder. It includes details like "how to setup", "database details" and "tech stack used".
 
 Check out the "Screenshots" folder to take a peek at the final website.
 
