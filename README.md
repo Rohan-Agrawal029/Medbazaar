@@ -11,15 +11,19 @@ FEATURES:-
 5) Feedback 
 
 TECH STACK:-
+
 Front End
 - HTML
 - CSS
 - JavaScript (No Framework)
 - BootStrap
+
 Back End
 - SQL
+
 Server Side Language 
 - PHP
+
 Webscraping Scripts
 - Python
 
